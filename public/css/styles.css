@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: black;
+ }
+
+canvas {
+  display: block;
+}
+
+#joystickCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  touch-action: none; /* Prevent touch from scrolling */
+}
